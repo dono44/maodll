@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title 'BIENVENUE' %}
+
+{% block body %}
+<div class="jumbotron text-center">
+<h1>bienvenue sur la page des project<h1>
+<p>bienvenue et decouvrer tout les project fl studio</p>
+
+<h4>video</h4>
+<video src="exemple.mp4" width=320  height=240 controls poster="vignette.jpg">
+    Cette vidéo ne peut être affichée sur votre navigateur Internet.<br>
+    Une version est disponible en téléchargement sous <a href="URL">adresse du lien </a> . 
+  </video>
+<p>voici un project fl studio a quoi sa resemble </p>
+<h3>voici se qu'on peut faire avec fl studio</h3>
+    <h5>music (1er demo)</h5>
+  <audio controls="controls">
+    <source src="music.mp3" type="audio/mp3" />
+    Votre navigateur n'est pas compatible
+  </audio>
+
+<h5>music (2eme demo)</h5>
+<audio controls="controls">
+  <source src="music.mp3" type="audio/mp3" />
+  Votre navigateur n'est pas compatible
+</audio>
+</div>
+
+{% endblock %}  
